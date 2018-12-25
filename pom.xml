@@ -67,12 +67,6 @@
             <version>5.1.47</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.apache.shiro/shiro-spring -->
-        <dependency>
-            <groupId>org.apache.shiro</groupId>
-            <artifactId>shiro-spring</artifactId>
-            <version>1.4.0</version>
-        </dependency>
 
         <!--&lt;!&ndash; https://mvnrepository.com/artifact/com.baomidou/mybatisplus-spring-boot-starter &ndash;&gt;-->
         <dependency>
