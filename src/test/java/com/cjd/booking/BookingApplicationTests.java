@@ -9,28 +9,28 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-@RunWith(SpringRunner.class)
-@SpringBootTest(classes = BookingApplication.class)
-public class BookingApplicationTests {
-
-//    @Test
-//    public void contextLoads() {
-//    }
+//@RunWith(SpringRunner.class)
+//@SpringBootTest(classes = BookingApplication.class)
+//public class BookingApplicationTests {
 //
-//    @Autowired
-//    private UserMapper userMapper;
-//
-//    @Test
-//    public void insert() {
-//
-//        User user = new User();
-//
-//        user.setId(13);
-//        user.setUsername("judgchen");
-//        user.setPassword("zxcvbnm123456");
-//
-//        userMapper.insert(user);
-//
-//        Assert.assertEquals(5,userMapper.getUserList().size());
-//    }
-}
+////    @Test
+////    public void contextLoads() {
+////    }
+////
+////    @Autowired
+////    private UserMapper userMapper;
+////
+////    @Test
+////    public void insert() {
+////
+////        User user = new User();
+////
+////        user.setId(13);
+////        user.setUsername("judgchen");
+////        user.setPassword("zxcvbnm123456");
+////
+////        userMapper.insert(user);
+////
+////        Assert.assertEquals(5,userMapper.getUserList().size());
+////    }
+//}

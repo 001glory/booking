@@ -1,0 +1,26 @@
+spring:
+  resources:
+    static-locations: classpath:/templates/,classpath:/static/
+  thymeleaf:
+    cache: false
+    check-template: true
+    check-template-location: true
+    encoding: UTF-8
+    prefix: classpath:/templates/
+    servlet:
+      content-type: text/html
+    enabled: true
+    suffix: .html
+    mode: html
+  datasource:
+    url: jdbc:mysql://localhost:3306/judgchen?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: zxcvbnm123456
+    driver-class-name: com.mysql.jdbc.Driver
+server:
+  port: 8888
+mybatis:
+  #实体扫描，多个package用逗号或者分号分隔
+  type-aliases-package: com.cjd.booking.dao.entity
+
+
